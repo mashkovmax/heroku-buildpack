@@ -7,14 +7,14 @@ echo "3.0.1 testing ..."
 
 # Determine version
 VERSION="3.0.1"
-// if [ -f "$BUILD_DIR/.swift-version" ]
-// then
-//     VERSION_FILE=".swift-version"
-//     VERSION=`cat $VERSION_FILE | tr -d '[[:space:]]'`
-// elif ! [ -z "$SWIFT_VERSION" ]
-// then
-//     VERSION="$SWIFT_VERSION"
-// fi
+# if [ -f "$BUILD_DIR/.swift-version" ]
+# then
+#     VERSION_FILE=".swift-version"
+#     VERSION=`cat $VERSION_FILE | tr -d '[[:space:]]'`
+# elif ! [ -z "$SWIFT_VERSION" ]
+# then
+#     VERSION="$SWIFT_VERSION"
+# fi
 
 echo "🔢  Version: $VERSION";
 
