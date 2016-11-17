@@ -3,6 +3,8 @@ cd "$BUILD_DIR"
 
 echo "Swift 3 Heroku Installer";
 
+echo "3.0.1 testing ..."
+
 # Determine version
 VERSION="3.0.1"
 if [ -f "$BUILD_DIR/.swift-version" ]
