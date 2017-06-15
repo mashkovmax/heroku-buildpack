@@ -6,4 +6,4 @@ if [[ ! -d "$CACHE_DIR/clang-$CLANG_VERSION" ]]; then
   cd $BUILD_DIR
 fi
 
-export PATH="$CACHE_DIR/clang-$CLANG_VERSION/clang+llvm-$CLANG_VERSION-x86_64-linux-gnu-ubuntu-14.04/bin:$PATH"
+export PATH="$CACHE_DIR/clang-$CLANG_VERSION/clang+llvm-$CLANG_VERSION-x86_64-linux-gnu-ubuntu-16.10/bin:$PATH"
